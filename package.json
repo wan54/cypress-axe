@@ -1,6 +1,6 @@
 {
 	"name": "cypress-axe",
-	"version": "0.12.3",
+	"version": "0.12.4",
 	"license": "MIT",
 	"description": "Test accessibility with axe-core in Cypress",
 	"homepage": "https://github.com/component-driven/cypress-axe",
@@ -28,8 +28,8 @@
 		"node": ">=10"
 	},
 	"peerDependencies": {
-		"axe-core": "^3 || ^4",
-		"cypress": "^3 || ^4 || ^5 || ^6 || ^7"
+		"axe-core": ">=3",
+		"cypress": ">=3"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.8",
